@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name" translatable="false">Dr Fit</string>
+
+    <!-- No Translate Strings -->
+    <string name="facebook" translatable="false">Facebook</string>
+    <string name="google_plus" translatable="false">Google</string>
+    <string name="base_url" translatable="false">http://13.95.195.88/api/v1</string>
+    <string name="privacy_url" translatable="false">http://13.95.195.88/privacy</string>
+    <string name="facebook_app_id" translatable="false">442718906088056</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb442718906088056</string>
+    <string name="google_play_license_key" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgttIQnQtD8QNnIOq8cEZlWInTtnFnGj6rYLgscA02ZLxnsx7v5YbV978QA9Lv2X/DdRat3uV7K9bh3rj+h7VJRst59ivbrqzaoNOe0fawMsmNG9j8ciEQOEN8HSVC9MaKradsiK2ZQIv/gSpfcCq5BkelFyvecY2GDNvdygySiMv/4R5hZQPG6qqHT7HF7HndPtoTefYXacf8fBHcelfbM7eMzJp8OHQKlaF6ra+Q3Sr+q/X7NJt/1/VP/HfCHQbhD8abxcbXOCRVC54zWGpCBynxAuc5kMzDSnOT98nkje1/VwEkzdzj+ixsh3o0nnMol43zogSId7cBF74AhB2jQIDAQAB</string>
+
+    <!-- First Screen -->
+    <string name="lets_start">Let\'s Start!</string>
+    <string name="lets_start_description">Welcome to World Of Dr.Fit... Our expoert trainers with you anymore.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+
+    <!-- Register Screen -->
+    <string name="name">Name :</string>
+    <string name="surname">Surname :</string>
+    <string name="email">Email :</string>
+    <string name="pass">Pass :</string>
+    <string name="birthday">Birthday :</string>
+    <string name="gender">Gender :</string>
+    <string name="accept_term_of_use">I accept terms of use.</string>
+    <string name="do_you_have_an_account">Do you have an account?</string>
+
+    <!-- Register Screen STRING ERROR -->
+    <string name="please_fill_the_blank">Please fill the blank.</string>
+    <string name="email_address_format_incorrect">Email address format incorrect.</string>
+    <string name="select_your_birthday">Select your birthday.</string>
+    <string name="check_tos">You need accept Terms Of Use.</string>
+
+    <!-- Login Screen -->
+    <string name="forgot_your_password"><u>Forgot your password ?</u></string>
+    <string name="dont_have_an_account">Don\'t have an account? </string>
+
+    <!-- Forgot Password Screen -->
+    <string name="forgot_password">Forgot Password</string>
+    <string name="send_password">Send Password</string>
+    
+    <!-- What is your goal Screen  1 -->
+    <string name="what_is_your_goal">What is your target?</string>
+    <string name="what_is_your_goal_description_1">Your exercise program is specially prepared for each week. Make sure your target and information are accurate.</string>
+    <string name="selection_1">Aesthetic &amp; Fit Body</string>
+    <string name="selection_2">Performance &amp; Fat Burn</string>
+    <string name="selection_3">Strength &amp; Bulking</string>
+
+    <!-- What is your goal Screen  2 -->
+    <string name="goal_screen_2_title">How would you like to achieve your target?</string>
+    <string name="goal_screen_2_description">You can do bodyweight workout at home or outdoors.</string>
+    <string name="goal_screen_2_description_2">Free weight exercises require dumbbells, barbells, resistance bands and adjustable bench.</string>
+    <string name="body_weight">Body Weight</string>
+    <string name="free_weight">Free Weight</string>
+
+    <!-- What is your goal Screen  3 -->
+    <string name="goal_screen_3_title">How many days in a week will you work out?</string>
+    <string name="goal_screen_3_description">Recommended for beginners 3 days.</string>
+    <string name="days_3">3 Days</string>
+    <string name="days_4">4 Days</string>
+    <string name="days_5">5 Days</string>
+
+    <!-- What is your goal Screen  4 -->
+    <string name="goal_screen_4_title">Select your height and weight?</string>
+    <string name="height_screen_4">Height (cm)</string>
+    <string name="weight_screen_4">Weight (kg)</string>
+
+    <!-- What is your goal Screen  5 -->
+    <string name="select_your_body_type">Select your body type</string>
+    <string name="its_my_type">It\'s My Type</string>
+
+    <!-- What is your goal Screen  6 -->
+    <string name="now_lets_test">Now let\'s test your body strength.</string>
+    <string name="now_lets_test_description">Now we going to measure your muscle strength to create the most suitable program for you.</string>
+    <string name="start_my_body_test">Start my body test</string>
+
+    <!-- What is your goal Screen  7 -->
+    <string name="move_4">4 Move</string>
+    <string name="min_04_30">04:30 Min</string>
+    <string name="goal_screen_7_description">Do the maximum number of repetitions you can do in one go.</string>
+    <string name="you_can_test_in_these_areas">You can test in these areas.</string>
+
+    <!-- What is your goal Screen  8 -->
+    <string name="how_many_repeat">How many repeat did you do it?</string>
+    <string name="goal_screen_8_general_subtitle_1">Keep your hands close to each other below your chest.</string>
+    <string name="goal_screen_8_general_subtitle_2">Keep your body straight.</string>
+    <string name="goal_screen_8_general_subtitle_3">Lift your body while exhaling.</string>
+    <string name="goal_screen_8_general_subtitle_4">Do not let your body touch the floor.</string>
+    
+    <string name="goal_screen_8_male_subtitle_1">Keep your hands on your waist to maintain your balance.</string>
+    <string name="goal_screen_8_male_subtitle_2">Knee of rear leg should not touch the floor.</string>
+    <string name="goal_screen_8_male_subtitle_3">Do the exercise by elevating on your front leg.</string>
+    <string name="goal_screen_8_male_subtitle_4">Exhale while you apply force.</string>
+
+    <string name="goal_screen_8_female_subtitle_1">Keep your hands on your waist to maintain your balance.</string>
+    <string name="goal_screen_8_female_subtitle_2">Knee of rear leg should not touch the floor.</string>
+    <string name="goal_screen_8_female_subtitle_3">Do the exercise by elevating on your front leg.</string>
+    <string name="goal_screen_8_female_subtitle_4">Exhale while you apply force.</string>
+
+    <!-- ReTest Goal Screen -->
+    <string name="title_re_goal">hedefinize devam etmek ister misiniz?</string>
+    <string name="title_re_goal_2">hedefinize</string>
+    <string name="title_re_goal_3">ile mi devam edeceksiniz?</string>
+
+    <!-- Home Screen -->
+    <string name="hello">Hello</string>
+    <string name="profile_description">You are in the right place to achieve the target. Don\'t Give Up</string>
+    <string name="my_workout">My Workouts :</string>
+    <string name="all_workout">All Workouts :</string>
+    <string name="buy_premium">Buy Premium</string>
+    <string name="thirty_percent">%30</string>
+    <string name="discount">Discount</string>
+    <string name="button_category">Category</string>
+    <string name="complete_your_test">Please complete your tests</string>
+    <string name="complete_your_test_description">Complete the test to prepare the training program.</string>
+    <string name="workout_preparing_title">Getting Ready</string>
+    <string name="workout_preparing_description">Your training program is being preparing.</string>
+    <string name="purchase_your_workout">Purchase your workout</string>
+    <string name="purchase_your_workout_description">Offer 30% discount.</string>
+    <string name="read_external_storage_permission_need">You need to give Read External permission because of ıvır zıvır. Dolduralacak burası.</string>
+    <string name="getting_ready">Getting Ready</string>
+    
+    <!-- Premium Screen -->
+    <string name="become_a_premium"><b>Become a Premium</b> member and <u>our professional trainers</u> will make a program for you.</string>
+
+    <string name="premium_item_1">\u2022 Tailor-made effective exercise programs</string>
+    <string name="premium_item_2">\u2022 Functional exercises for all levels</string>
+    <string name="premium_item_3">\u2022 Performance-oriented scientific training programs</string>
+    <string name="premium_item_4">\u2022 Interaction with professional trainers and physical therapists</string>
+    <string name="premium_item_5">\u2022 Join the World of Dr. Fit and show yourself in the competition.</string>
+
+    <string name="one_month">1 Month membership</string>
+    <string name="one_month_description">19.9 TRY / Month &amp; Total 19.99 TRY</string>
+    <string name="three_month">3 Months membership</string>
+    <string name="three_month_description">16.7 TRY / Month &amp; Total 49.99 TRY</string>
+    <string name="one_year">1 Year membership</string>
+    <string name="one_year_description">10.0 TRY / Month &amp; Total 119.99 TRY</string>
+
+    <!-- Profile Settings Screen -->
+    <string name="logout"><u>Logout</u></string>
+    <string name="save">Save</string>
+    <string name="settings">Settings</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="my_destination">My Destination</string>
+    <string name="tos_and_pp">Terms of use &amp; privacy policy</string>
+
+    <!-- Profile Destination Screen -->
+    <string name="date">Date :</string>
+    <string name="add">Add</string>
+
+    <!-- Gymnasium Screen -->
+    <string name="point">Point</string>
+
+    <!-- Workout Preview Screen -->
+    <string name="exercise">Exercise</string>
+    <string name="exercise_time">30:00</string>
+    <string name="download">Download</string>
+    <string name="start">Start</string>
+    <string name="exercises_downloading">Exercises Downloading</string>
+    <string name="please_wait_until_videos_are_downloaded">Please wait until the videos are downloaded</string>
+
+    <!-- Workout Screen -->
+    <string name="want_to_continue_training">Do you want to continue training?</string>
+    <string name="repeat">Repeat</string>
+    <string name="next">Next</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="setAndRepeatCount">1. Set 12 Repeat</string>
+
+    <!-- Congratulations Screen -->
+    <string name="congratulations">Congratulations!</string>
+    <string name="go_one_step_closer">Go one step closer to your goal!</string>
+    <string name="go_home">Go Home</string>
+    <string name="success_message">You earned 100 points</string>
+
+    <!-- Messaging Screen -->
+    <string name="first_message">All questions you ask will be answered by our professional trainers within 24 hours. You can get the answer to all the questions you\'re wondering.</string>
+    <string name="edittext_hint">Type your message.</string>
+    <string name="type_minimum_20">Please type minimum 20 character.</string>
+    <string name="button_name">Soru: 8.99 TRY</string>
+
+    <!-- General Strings -->
+    <string name="dont_have_internet_connection">You don\'t have internet connection!</string>
+    <string name="loading_please_wait">Loading, Please Wait..</string>
+    <string name="lorem_ipsum">- Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet .</string>
+    <string name="lorem_ipsum_2">Integer pellentesque est a ipsum tincidunt, tempus aliquam lectus mattis.</string>
+    <string name="please_rest_for_30_seconds">Please rest for 30 seconds.</string>
+    <string name="free">Free</string>
+    <string name="premium">Premium</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="loading">Loading..</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="ok">OK</string>
+    <string name="select_your_gender">Select your gender</string>
+    <string name="dont_leave_empty_field">Don\'t leave empty field..</string>
+    <string name="back">Back</string>
+    <string name="skip">Skip</string>
+    <string name="continue_button">Continue</string>
+    <string name="error_100">Please fill all the blanks</string>
+    <string name="notification_header">Your program has been ready</string>
+    <string name="notification_detail">Your workouts are ready.</string>
+    <string name="please_check_internet">Please check your internet connection</string>
+    <string name="choose">Choose</string>
+    <string name="choose_from_gallery">Choose From Gallery</string>
+    <string name="day">Day</string>
+    <string name="complete">Complete</string>
+    <string name="ready">Ready</string>
+    <string name="not_ready">Not Ready</string>
+    <string name="complete_previous">Complete previous training first.</string>
+    <string name="workout">Workout</string>
+</resources>

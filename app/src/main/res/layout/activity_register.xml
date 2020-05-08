@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/myRegisterToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:navigationIcon="@drawable/back"
+            app:theme="@style/AppTheme.Toolbar"
+            app:titleTextAppearance="@style/AppTheme.Toolbar.Title"
+            android:background="#fff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/toolbar_title"
+                android:textSize="16sp"
+                android:textColor="#363636" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/shadow"
+            android:layout_below="@+id/myRegisterToolbar" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:id="@+id/RLContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TILName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/ACTVName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name"
+                    android:textColorHint="#C0C5CD"
+                    android:inputType="textPersonName"
+                    android:imeOptions="actionNext"
+                    android:fontFamily="sans-serif"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TILSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TILName">
+
+                <AutoCompleteTextView
+                    android:id="@+id/ACTVSurname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/surname"
+                    android:textColorHint="#C0C5CD"
+                    android:inputType="textPersonName"
+                    android:imeOptions="actionNext"
+                    android:fontFamily="sans-serif"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TILEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TILSurname">
+
+                <AutoCompleteTextView
+                    android:id="@+id/ACTVEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:textColorHint="#C0C5CD"
+                    android:inputType="textEmailAddress"
+                    android:imeOptions="actionNext"
+                    android:fontFamily="sans-serif"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TILPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TILEmail"
+                app:passwordToggleEnabled="true">
+
+                <AutoCompleteTextView
+                    android:id="@+id/ACTVPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pass"
+                    android:textColorHint="#C0C5CD"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionNext"
+                    android:fontFamily="sans-serif"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TILBirthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TILPass">
+
+                <AutoCompleteTextView
+                    android:id="@+id/ACTVBirthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/birthday"
+                    android:textColorHint="#C0C5CD"
+                    android:inputType="date"
+                    android:imeOptions="actionNext"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false"
+                    android:fontFamily="sans-serif"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TILGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TILBirthday">
+
+                <AutoCompleteTextView
+                    android:id="@+id/ACTVGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/gender"
+                    android:textColorHint="#C0C5CD"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false"
+                    android:inputType="text"
+                    android:imeOptions="actionDone"
+                    android:fontFamily="sans-serif"
+                    android:textSize="16sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:id="@+id/RLBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TILGender">
+
+                <RelativeLayout
+                    android:id="@+id/RLTOS"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/IVTOS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/uncheck"/>
+
+                    <TextView
+                        android:id="@+id/TVTOS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/accept_term_of_use"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#99a3b0"
+                        android:layout_toEndOf="@id/IVTOS"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"/>
+
+                    </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/RLRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:layout_below="@+id/RLTOS"
+                    android:layout_marginTop="5dp">
+
+                    <Button
+                        android:id="@+id/btnRegister"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:text="@string/register"
+                        android:textAllCaps="false"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="#fff"
+                        android:textSize="16sp"
+                        android:background="@drawable/background_button_login"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/RLDoYouHaveAnAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/RLRegister"
+                    android:layout_marginTop="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/do_you_have_an_account"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#99a3b0"
+                            android:textSize="12sp"/>
+
+                        <TextView
+                            android:id="@+id/TVSignIn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sign_in"
+                            android:layout_marginStart="8dp"
+                            android:fontFamily="sans-serif"
+                            android:textSize="12sp"
+                            android:textColor="#345fb5" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/RLFacebookOrGoogle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/RLDoYouHaveAnAccount"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:weightSum="2">
+
+                        <Button
+                            android:id="@+id/btnFacebook"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:text="@string/facebook"
+                            android:textAllCaps="false"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#fff"
+                            android:background="@drawable/background_button_facebook_or_google_in_register"
+                            android:drawableStart="@drawable/background_button_in_button_for_facebook"
+                            android:padding="4dp"/>
+
+                        <Button
+                            android:id="@+id/btnGoogle"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:text="@string/google_plus"
+                            android:textAllCaps="false"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#fff"
+                            android:background="@drawable/background_button_facebook_or_google_in_register"
+                            android:drawableStart="@drawable/backroung_button_in_button_for_google"
+                            android:padding="4dp"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

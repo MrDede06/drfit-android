@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/RLTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/myToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:navigationIcon="@drawable/back"
+            app:theme="@style/AppTheme.Toolbar"
+            app:titleTextAppearance="@style/AppTheme.Toolbar.Title"
+            android:background="#fff">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home_logo"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="120dp" />
+
+            <RelativeLayout
+                android:id="@+id/RLLogout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true">
+
+                <ImageView
+                    android:id="@+id/IVLogout"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/exit"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/shadow"
+            android:layout_below="@+id/myToolbar" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/RLTopBar">
+
+        <RelativeLayout
+            android:id="@+id/RLProfilePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:elevation="2dp"
+                android:layout_centerHorizontal="true">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/RIVProfilePicture"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    app:riv_corner_radius="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile_picture"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RLImage"
+                android:layout_width="125dp"
+                android:layout_height="85dp"
+                android:layout_centerHorizontal="true">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="5dp"
+                    android:layout_centerHorizontal="true"
+                    app:cardUseCompatPadding="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/RLProfilePicture">
+
+            <RelativeLayout
+                android:id="@+id/RLContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/TILName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/ACTVName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/name"
+                        android:textColorHint="#C0C5CD"
+                        android:textSize="16sp"
+                        android:inputType="textPersonName"
+                        android:imeOptions="actionNext"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:maxLines="1" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/TILSurname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TILName">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/ACTVSurname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/surname"
+                        android:textColorHint="#C0C5CD"
+                        android:textSize="16sp"
+                        android:inputType="textPersonName"
+                        android:imeOptions="actionNext"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:maxLines="1" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/TILEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TILSurname">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/ACTVEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/email"
+                        android:textColorHint="#C0C5CD"
+                        android:textSize="16sp"
+                        android:inputType="textEmailAddress"
+                        android:imeOptions="actionNext"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:maxLines="1" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/TILPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TILEmail"
+                    app:passwordToggleEnabled="true">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/ACTVPass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/pass"
+                        android:textColorHint="#C0C5CD"
+                        android:inputType="textPassword"
+                        android:imeOptions="actionNext"
+                        android:fontFamily="sans-serif"
+                        android:textSize="16sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:maxLines="1" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/TILBirthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TILPass">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/ACTVBirthday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/birthday"
+                        android:textColorHint="#C0C5CD"
+                        android:focusableInTouchMode="false"
+                        android:focusable="false"
+                        android:textSize="16sp"
+                        android:inputType="date"
+                        android:imeOptions="actionNext"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:maxLines="1" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/TILGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TILBirthday">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/ACTVGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/gender"
+                        android:focusableInTouchMode="false"
+                        android:focusable="false"
+                        android:textColorHint="#C0C5CD"
+                        android:textSize="16sp"
+                        android:inputType="text"
+                        android:imeOptions="actionDone"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:maxLines="1" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <RelativeLayout
+                    android:id="@+id/RLBottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TILGender">
+
+                    <RelativeLayout
+                        android:id="@+id/RLSave"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_marginTop="20dp">
+
+                        <Button
+                            android:id="@+id/btnSave"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:text="@string/save"
+                            android:textSize="16sp"
+                            android:textAllCaps="false"
+                            android:fontFamily="sans-serif-medium"
+                            android:textColor="#fff"
+                            android:background="@drawable/background_button_login"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

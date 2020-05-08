@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:elevation="6dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/IVPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:src="@drawable/profile_picture"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            app:riv_corner_radius="10dp" />
+
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background_black_opacity" />-->
+
+        <Button
+            android:id="@+id/btnCategory"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/free"
+            android:textColor="#FFFFFF"
+            android:textSize="9sp"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:background="@drawable/background_button_category"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/CVPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/TVProgramTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/text_color_3"
+                android:text="Body on the beach"
+                android:textSize="20sp"
+                android:layout_marginTop="160dp" />
+
+            <!--<TextView
+                android:id="@+id/TVProgramDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/text_color"
+                android:textSize="9sp"
+                android:text="Integer pellentesque est a ipsum tincidunt, tempus aliquam lectus mattis." /> -->
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

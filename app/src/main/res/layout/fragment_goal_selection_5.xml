@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3">
+
+    <RelativeLayout
+        android:id="@+id/RLTop"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="70dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:text="@string/back"
+            android:background="@drawable/background_button_category" />
+
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="70dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="sans-serif"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:text="@string/skip"
+            android:background="@drawable/background_button_category" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RLWhatIsYourGoal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/RLTop">
+
+        <TextView
+            android:id="@+id/TVTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="@string/select_your_body_type"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_below="@+id/RLWhatIsYourGoal"
+        android:layout_above="@+id/RLItsMyType"
+        android:layout_marginBottom="40dp">
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RLItsMyType"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnItsMyType"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:text="@string/its_my_type"
+            android:background="@drawable/background_button_login" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

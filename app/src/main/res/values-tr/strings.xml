@@ -1,0 +1,204 @@
+<resources>
+    <!-- First Screen -->
+    <string name="lets_start">Başlayalım!</string>
+    <string name="lets_start_description">Dr.Fit Dünyasına Hoşgelin. Uzman Eğitmenlerimiz Artık Seninle!</string>
+    <string name="sign_in">Giriş Yap</string>
+    <string name="register">Kayıt Ol</string>
+
+    <!-- Register Screen -->
+    <string name="name">Ad :</string>
+    <string name="surname">Soyad :</string>
+    <string name="email">E-posta :</string>
+    <string name="pass">Şifre :</string>
+    <string name="birthday">Yaşınız :</string>
+    <string name="gender">Cinsiyet :</string>
+    <string name="accept_term_of_use">Kullanım şartlarını kabul ediyorum.</string>
+    <string name="do_you_have_an_account">Bir üyeliğin var mı?</string>
+
+    <!-- Register Screen STRING ERROR -->
+    <string name="please_fill_the_blank">Lütfen seçim yapın.</string>
+    <string name="email_address_format_incorrect">Lütfen email adresinizi belirleyin.</string>
+    <string name="select_your_birthday">Lütfen doğum tarihinizi belirleyin.</string>
+    <string name="check_tos">Lütfen kullanım şartlarını kabul edin.</string>
+
+    <!-- Login Screen -->
+    <string name="forgot_your_password"><u>Şifreni mi unuttun?</u></string>
+    <string name="dont_have_an_account">Bir hesabınız yok mu? Kayıt olun\n</string>
+
+    <!-- Forgot Password Screen -->
+    <string name="forgot_password">Şifreni mi unuttun?</string>
+    <string name="send_password">Gönder</string>
+
+    <!-- What is your goal Screen  1 -->
+    <string name="what_is_your_goal">Hedefin nedir?</string>
+    <string name="what_is_your_goal_description_1">Programınız her hafta için özel olarak hazırlanmaktadır.Hedefiniz ve bilgilerinizin doğru olduğundan emin olunuz!</string>
+    <string name="selection_1">Estetik &amp; Atletik Vücut</string>
+    <string name="selection_2">Performans &amp; Yağ Yakımı</string>
+    <string name="selection_3">Kuvvet &amp; Hacim</string>
+
+    <!-- What is your goal Screen  2 -->
+    <string name="goal_screen_2_title">Amacınıza nasıl ulaşmak istersiniz?</string>
+    <string name="goal_screen_2_description">Vücut ağırlığınız ile evinizde veya açık alanda spor yapabilirsiniz.</string>
+    <string name="goal_screen_2_description_2">Serbest ağırlık, dumbbell, bar, direnç lastiği ve ayarlanabilir sehpa gerektirir.</string>
+    <string name="body_weight">Vücut Ağırlığı</string>
+    <string name="free_weight">Serbest Ağırlık</string>
+
+    <!-- What is your goal Screen  3 -->
+    <string name="goal_screen_3_title">Haftada kaç gün spor yapacaksınız?</string>
+    <string name="goal_screen_3_description">Yeni başlayanlar için 3 gün önerilir.</string>
+    <string name="days_3">3 Gün</string>
+    <string name="days_4">4 Gün</string>
+    <string name="days_5">5 Gün</string>
+
+    <!-- What is your goal Screen  4 -->
+    <string name="goal_screen_4_title">Boy ve kilo seçiniz.</string>
+    <string name="height_screen_4">Boy (cm)</string>
+    <string name="weight_screen_4">Kilo (kg)</string>
+
+    <!-- What is your goal Screen  5 -->
+    <string name="select_your_body_type">Vücut tipinizi seçiniz.</string>
+    <string name="its_my_type">Vücut Tipim Bu</string>
+
+    <!-- What is your goal Screen  6 -->
+    <string name="now_lets_test">Güç Testini Başlat</string>
+    <string name="now_lets_test_description">Şimdi kas gücünüzü ölçerek size en uygun programı hazırlayacağız.</string>
+    <string name="start_my_body_test">Güç Testini Başlat</string>
+
+    <!-- What is your goal Screen  7 -->
+    <string name="move_4">2 Egzersiz</string>
+    <string name="min_04_30">04:30 Dk</string>
+    <string name="goal_screen_7_description">Tek seferde yapabileceğiniz maksimum tekrar sayısını yapınız.</string>
+    <string name="you_can_test_in_these_areas">Bu alanlarda test edebilirsiniz.</string>
+
+    <!-- What is your goal Screen  8 -->
+    <string name="how_many_repeat">Kaç tekrar yapabildiniz?</string>
+    <string name="goal_screen_8_general_subtitle_1">Keep your hands close to each other below your chest.</string>
+    <string name="goal_screen_8_general_subtitle_2">Keep your body straight.</string>
+    <string name="goal_screen_8_general_subtitle_3">Lift your body while exhaling.</string>
+    <string name="goal_screen_8_general_subtitle_4">Do not let your body touch the floor.</string>
+
+    <string name="goal_screen_8_male_subtitle_1">Keep your hands on your waist to maintain your balance.</string>
+    <string name="goal_screen_8_male_subtitle_2">Knee of rear leg should not touch the floor.</string>
+    <string name="goal_screen_8_male_subtitle_3">Do the exercise by elevating on your front leg.</string>
+    <string name="goal_screen_8_male_subtitle_4">Exhale while you apply force.</string>
+
+    <string name="goal_screen_8_female_subtitle_1">Keep your hands on your waist to maintain your balance.</string>
+    <string name="goal_screen_8_female_subtitle_2">Knee of rear leg should not touch the floor.</string>
+    <string name="goal_screen_8_female_subtitle_3">Do the exercise by elevating on your front leg.</string>
+    <string name="goal_screen_8_female_subtitle_4">Exhale while you apply force.</string>
+
+    <!-- ReTest Goal Screen -->
+    <string name="title_re_goal">hedefinize devam etmek ister misiniz?</string>
+    <string name="title_re_goal_2">hedefinize</string>
+    <string name="title_re_goal_3">ile mi devam edeceksiniz?</string>
+
+    <!-- Home Screen -->
+    <string name="hello">Merhaba</string>
+    <string name="profile_description">Amacına ulaşmak için doğru yerdesin. Mücadeleyi bırakma!</string>
+    <string name="my_workout">Antreman Programım :</string>
+    <string name="all_workout">Genel Antremanlar :</string>
+    <string name="buy_premium">Satın Al</string>
+    <string name="thirty_percent">%30</string>
+    <string name="discount">İndirim</string>
+    <string name="button_category">Kategoriler</string>
+    <string name="complete_your_test">Please complete your tests</string>
+    <string name="complete_your_test_description">Complete the test to prepare the training program.</string>
+    <string name="workout_preparing_title">Getting Ready</string>
+    <string name="workout_preparing_description">Your training program is being preparing.</string>
+    <string name="purchase_your_workout">Purchase your workout</string>
+    <string name="purchase_your_workout_description">Offer 30% discount.</string>
+    <string name="read_external_storage_permission_need">You need to give Read External permission because of ıvır zıvır. Dolduralacak burası.</string>
+    <string name="getting_ready">Getting Ready</string>
+
+    <!-- Premium Screen -->
+    <string name="become_a_premium"><b>Become a Premium</b> member and <u>our professional trainers</u> will make a program for you.</string>
+
+    <string name="premium_item_1">\u2022 Tailor-made effective exercise programs</string>
+    <string name="premium_item_2">\u2022 Functional exercises for all levels</string>
+    <string name="premium_item_3">\u2022 Performance-oriented scientific training programs</string>
+    <string name="premium_item_4">\u2022 Interaction with professional trainers and physical therapists</string>
+    <string name="premium_item_5">\u2022 Join the World of Dr. Fit and show yourself in the competition.</string>
+
+    <string name="one_month">1 Month membership</string>
+    <string name="one_month_description">19.9 TRY / Month &amp; Total 19.99 TRY</string>
+    <string name="three_month">3 Months membership</string>
+    <string name="three_month_description">16.7 TRY / Month &amp; Total 49.99 TRY</string>
+    <string name="one_year">1 Year membership</string>
+    <string name="one_year_description">10.0 TRY / Month &amp; Total 119.99 TRY</string>
+
+    <!-- Profile Settings Screen -->
+    <string name="logout"><u>Çıkış</u></string>
+    <string name="save">Kaydet</string>
+    <string name="settings">Ayarlar</string>
+    <string name="invite_friends">Arkadaşlarını Davet et</string>
+    <string name="my_destination">My Destination</string>
+    <string name="tos_and_pp">Terms of use &amp; privacy policy</string>
+
+    <!-- Profile Destination Screen -->
+    <string name="date">Date :</string>
+    <string name="add">Add</string>
+
+    <!-- Gymnasium Screen -->
+    <string name="point">Point</string>
+
+    <!-- Workout Preview Screen -->
+    <string name="exercise">Exercise</string>
+    <string name="exercise_time">30:00</string>
+    <string name="download">Download</string>
+    <string name="start">Start</string>
+    <string name="exercises_downloading">Exercises Downloading</string>
+    <string name="please_wait_until_videos_are_downloaded">Please wait until the videos are downloaded</string>
+
+    <!-- Workout Screen -->
+    <string name="want_to_continue_training">Do you want to continue training?</string>
+    <string name="repeat">Repeat</string>
+    <string name="next">Next</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="setAndRepeatCount">1. Set 12 Repeat</string>
+
+    <!-- Congratulations Screen -->
+    <string name="congratulations">Tebrikler!</string>
+    <string name="go_one_step_closer">Başarını arkadaşlarınla paylaş ve Ekstra Puan Kazan!</string>
+    <string name="go_home">Tamam</string>
+    <string name="success_message">You earned 100 points</string>
+
+    <!-- Messaging Screen -->
+    <string name="first_message">All questions you ask will be answered by our professional trainers within 24 hours. You can get the answer to all the questions you\'re wondering.</string>
+    <string name="edittext_hint">Type your message.</string>
+    <string name="type_minimum_20">Please type minimum 20 character.</string>
+    <string name="button_name">Soru: 8.99 TRY</string>
+
+    <!-- General Strings -->
+    <string name="dont_have_internet_connection">İnternet Bağlantınız Yok!</string>
+    <string name="loading_please_wait">Loading, Please Wait..</string>
+    <string name="lorem_ipsum">- Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet .</string>
+    <string name="lorem_ipsum_2">Integer pellentesque est a ipsum tincidunt, tempus aliquam lectus mattis.</string>
+    <string name="please_rest_for_30_seconds">Lütfen 30 saniye dinleniniz.</string>
+    <string name="free">Ücretsiz</string>
+    <string name="premium">Premium</string>
+    <string name="set">Set</string>
+    <string name="cancel">İptal</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="loading">Loading..</string>
+    <string name="male">Erkek</string>
+    <string name="female">Kadın</string>
+    <string name="ok">OK</string>
+    <string name="select_your_gender">Lütfen cinsiyetinizi belirleyin</string>
+    <string name="dont_leave_empty_field">Don\'t leave empty field..</string>
+    <string name="back">Geri</string>
+    <string name="skip">Atla</string>
+    <string name="continue_button">Devam</string>
+    <string name="error_100">Please fill all the blanks</string>
+    <string name="notification_header">Your program has been ready</string>
+    <string name="notification_detail">Your workouts are ready.</string>
+    <string name="please_check_internet">İnternet bağlantınızı kontrol edin</string>
+    <string name="choose">Seçim yapın..</string>
+    <string name="choose_from_gallery">Galeriden Seç</string>
+    <string name="day">Gün</string>
+    <string name="complete">Tamamlandı</string>
+    <string name="ready">Hazır</string>
+    <string name="not_ready">Hazır Değil</string>
+    <string name="complete_previous">Önceki antrenmanı tamamlayın.</string>
+    <string name="workout">Antrenman</string>
+</resources>

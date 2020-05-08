@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FLRest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/RLTimer"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_marginTop="100dp">
+
+            <ProgressBar
+                android:id="@+id/PBLoadingBackground"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_centerInParent="true"
+                android:max="100"
+                android:progress="100"
+                android:progressDrawable="@drawable/progressbar_circle_background" />
+
+            <ProgressBar
+                android:id="@+id/PBLoadingPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_centerInParent="true"
+                android:max="100"
+                android:progress="100"
+                android:progressDrawable="@drawable/progressbar_circle" />
+
+            <TextView
+                android:id="@+id/TVCountTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:layout_centerInParent="true"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:text="30" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/please_rest_for_30_seconds"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_below="@+id/RLTimer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

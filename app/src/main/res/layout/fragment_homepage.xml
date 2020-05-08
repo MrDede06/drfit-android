@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/SVHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/RLContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/RLProfileInfo"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <RelativeLayout
+                    android:id="@+id/RLProfilePicture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="95dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="38dp"
+                        android:layout_marginTop="23dp"
+                        android:elevation="2dp">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/RIVProfilePicture"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            app:riv_corner_radius="8dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/profile_picture"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="10dp"
+                            android:layout_centerHorizontal="true"
+                            app:cardUseCompatPadding="true" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@+id/RLProfilePicture"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:id="@+id/TVHello"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hello"
+                        android:fontFamily="sans-serif"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_color"
+                        android:layout_marginTop="4dp"/>
+
+                    <TextView
+                        android:id="@+id/TVName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:textSize="18sp"
+                        android:textColor="#353535"
+                        android:layout_toEndOf="@+id/TVHello"
+                        android:text="@string/app_name"
+                        android:layout_marginStart="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textSize="14sp"
+                        android:layout_toEndOf="@+id/TVName"
+                        android:textColor="@color/text_color"
+                        android:text="," />
+
+                    <TextView
+                        android:id="@+id/TVProfileDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:layout_below="@id/TVHello"
+                        android:textColor="@color/text_color"
+                        android:textSize="14sp"
+                        android:text="@string/profile_description"
+                        android:layout_marginEnd="20dp"/>
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RLMyWorkouts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RLProfileInfo">
+
+                <TextView
+                    android:id="@+id/TVMyWorkout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textColor="#353535"
+                    android:text="@string/my_workout"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/RVMyWorkouts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TVMyWorkout"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/RLMyWorkouts"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/TVAllWorkout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textColor="#353535"
+                    android:text="@string/all_workout"
+                    android:layout_marginStart="20dp" />
+
+                <ListView
+                    android:id="@+id/LVAllWorkout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/TVAllWorkout"
+                    android:layout_marginTop="10dp"
+                    android:nestedScrollingEnabled="false"
+                    android:divider="@android:color/transparent"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

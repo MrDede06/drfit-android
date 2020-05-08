@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/RLNameAndPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="63dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="13dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="1dp"
+            app:cardUseCompatPadding="true" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/RIVProfilePicture"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/background_profile_background_gray"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="5dp"
+            android:elevation="2dp" />
+
+        <LinearLayout
+            android:id="@+id/LLBackground"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_button_login"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/TVFullName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_weight="6"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:text="Arif Batuhan Ö."
+                android:textSize="16sp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/TVProfilePointValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:text="3535"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/TVProfilePoint"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif"
+                android:gravity="center|start"
+                android:textSize="13sp"
+                android:text="Point"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

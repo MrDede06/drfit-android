@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6">
+
+    <RelativeLayout
+        android:id="@+id/RLTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/myHomepageToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:theme="@style/AppTheme.Toolbar"
+            app:titleTextAppearance="@style/AppTheme.Toolbar.Title"
+            android:background="@drawable/toolbar_background">
+        </android.support.v7.widget.Toolbar>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/shadow"
+            android:layout_below="@+id/myHomepageToolbar" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D8D8D8"
+        android:layout_above="@+id/LLBottomBar" />
+
+    <LinearLayout
+        android:id="@+id/LLBottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:id="@+id/LLHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/IVHome"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/a1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLMessaging"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/IVMessaging"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/a2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLGymnasium"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/IVGymnasium"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/a3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/IVProfile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/a4" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/FLHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="51dp"/>
+
+</RelativeLayout>

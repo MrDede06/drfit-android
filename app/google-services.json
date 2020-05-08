@@ -1,0 +1,66 @@
+{
+  "project_info": {
+    "project_number": "710310425118",
+    "firebase_url": "https://drfit-77441.firebaseio.com",
+    "project_id": "drfit-77441",
+    "storage_bucket": "drfit-77441.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710310425118:android:fa0f9e3c28820430",
+        "android_client_info": {
+          "package_name": "com.dr.fit.fitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710310425118-5qc97jv7cnpfavh5lvsutj7ht4jh1rps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dr.fit.fitness",
+            "certificate_hash": "db12ab9895fabb173fed9c3ee63dc913d80b221d"
+          }
+        },
+        {
+          "client_id": "710310425118-igoscoabegt48ea922gicmfij0kii2ea.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "710310425118-igoscoabegt48ea922gicmfij0kii2ea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt7N84NYUCIsTm9_z88N2adLv89miB-94"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710310425118-igoscoabegt48ea922gicmfij0kii2ea.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "710310425118-6ref18mg43olfmrfngrd9oclcjktui4p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "13.95.195.88.Dr--Fit"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
