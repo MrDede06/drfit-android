@@ -4,8 +4,8 @@
     <!-- No Translate Strings -->
     <string name="facebook" translatable="false">Facebook</string>
     <string name="google_plus" translatable="false">Google</string>
-    <string name="base_url" translatable="false">http://13.95.195.88/api/v1</string>
-    <string name="privacy_url" translatable="false">http://13.95.195.88/privacy</string>
+    <string name="base_url" translatable="false">http://dededevops.com/api/v1</string>
+    <string name="privacy_url" translatable="false">http://dededevops.com/privacy</string>
     <string name="facebook_app_id" translatable="false">442718906088056</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb442718906088056</string>
     <string name="google_play_license_key" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgttIQnQtD8QNnIOq8cEZlWInTtnFnGj6rYLgscA02ZLxnsx7v5YbV978QA9Lv2X/DdRat3uV7K9bh3rj+h7VJRst59ivbrqzaoNOe0fawMsmNG9j8ciEQOEN8HSVC9MaKradsiK2ZQIv/gSpfcCq5BkelFyvecY2GDNvdygySiMv/4R5hZQPG6qqHT7HF7HndPtoTefYXacf8fBHcelfbM7eMzJp8OHQKlaF6ra+Q3Sr+q/X7NJt/1/VP/HfCHQbhD8abxcbXOCRVC54zWGpCBynxAuc5kMzDSnOT98nkje1/VwEkzdzj+ixsh3o0nnMol43zogSId7cBF74AhB2jQIDAQAB</string>

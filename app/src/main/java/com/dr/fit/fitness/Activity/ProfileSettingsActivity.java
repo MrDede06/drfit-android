@@ -232,7 +232,7 @@ public class ProfileSettingsActivity extends AppCompatActivity {
             ACTVGender.setText(getString(R.string.male));
         }
 
-        if (!sharedPreferences.GET_PROFILE_IMAGE().equals("http://13.95.195.88/media/")){
+        if (!sharedPreferences.GET_PROFILE_IMAGE().equals("http://dededevops.com/media/")){
             Picasso.with(this).load(sharedPreferences.GET_PROFILE_IMAGE()).into(RIVProfilePicture);
         }
 

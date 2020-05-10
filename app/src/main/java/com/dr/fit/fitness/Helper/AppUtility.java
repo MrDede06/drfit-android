@@ -123,7 +123,7 @@ public class AppUtility {
 
         Log.d("Kontrol", "PP: " + sharedPreferences.GET_PROFILE_IMAGE());
 
-        if (!sharedPreferences.GET_PROFILE_IMAGE().equals("http://13.95.195.88/media/")){
+        if (!sharedPreferences.GET_PROFILE_IMAGE().equals("http://dededevops.com/media/")){
             Picasso.with(context).load(sharedPreferences.GET_PROFILE_IMAGE()).into(RIVProfilePicture);
         }else{
             RIVProfilePicture.setImageResource(R.drawable.profile_picture);
@@ -145,7 +145,7 @@ public class AppUtility {
     public static void downloadVideos(Context mContext, List<String> VideosName, BroadcastReceiver onComplete){
         for (int i = 0; i < VideosName.size(); i++) {
             if(!isVideoExistInVideosFolder(VideosName.get(i))){
-                DownloadManager.Request request = new DownloadManager.Request(Uri.parse("http://13.95.195.88/media/" + VideosName.get(i)));
+                DownloadManager.Request request = new DownloadManager.Request(Uri.parse("http://dededevops.com/media/" + VideosName.get(i)));
 
                 request.setTitle("Exercises Downloading");
                 request.allowScanningByMediaScanner();

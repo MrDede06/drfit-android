@@ -140,7 +140,7 @@ public class CongratulationsActivity extends AppCompatActivity implements View.O
         ShareCompat.IntentBuilder.from(this)
                 .setType("text/plain")
                 .setChooserTitle("Training")
-                .setText("http://13.95.195.88")
+                .setText("http://dededevops.com")
                 .startChooser();
 
     }

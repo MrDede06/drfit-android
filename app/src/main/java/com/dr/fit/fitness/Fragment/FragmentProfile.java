@@ -62,7 +62,7 @@ public class FragmentProfile extends Fragment {
         RLInviteFriends.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ShareCompat.IntentBuilder.from(getActivity()).setType("text/plain").setChooserTitle("Training").setText("http://13.95.195.88").startChooser();
+                ShareCompat.IntentBuilder.from(getActivity()).setType("text/plain").setChooserTitle("Training").setText("http://dededevops.com").startChooser();
             }
         });
 
